@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<!--top bar -->
+<style>
+* {
+    margin: 0;
+}
+.navbar-top {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 4px 8px 0px grey;
+    height: 80px;
+}
+</style>
+<!-- title (profile-->
+<style>
+.title {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    left: 45%;
+	margin: 20px;
+}
+</style>
+<!-- ul list-->
+<style>
+.navbar-top ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 18px 50px 0 40px;
+}
+.navbar-top ul li {
+    float: left;
+}
+.navbar-top ul li a {
+    color: #333;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+</style>
+
+<!-- notification numbers -->
+<style>
+.icon-count {
+    background-color: #ff0000;
+    color: white;
+    float: right;
+    font-size: 11px;
+    left: -25px;
+    padding: 2px;
+    position: relative;
+}
+</style>
+
+<style>
+.sidenav {
+    background-color:black;
+    color: white;
+    border-bottom-right-radius: 25px;
+    height: 100%;
+    left: 0;
+
+    padding-top: 20px;
+    position: absolute;
+    top: 70px;
+    width: 250px;
+}
+.profile {
+    margin-bottom: 20px;
+    margin-top: -12px;
+    text-align: center;
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.job {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.url, hr {
+    text-align: center;
+}
+
+.url hr {
+    margin-left: 20%;
+    width: 60%;
+}
+
+.url a {
+    color: #818181;
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 6px 8px;
+    text-decoration: none;
+}
+
+.url a:hover, .url .active {
+    background-color: #e8f5ff;
+    border-radius: 28px;
+    color: #000;
+    margin-left: 14%;
+    width: 65%;
+}
+</style>
+
+<style>
+.main {
+    margin-top: 2%;
+    margin-left: 290px;
+    font-size: 20px;
+    padding: 0 10px;
+    width: 58%;
+}
+.main .card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px 0 grey;
+    padding: 20px 0 20px 50px;
+}
+
+.main .card table {
+    border: none;
+    font-size: 16px;
+    height: 270px;
+    width: 80%;
+}
+</style>
+    <div class="navbar-top">
+        <div class="title">
+            <h1>Profile</h1>
+        </div>
+		
+        <ul>
+        <li>
+            <a href="#message">
+            <span class="icon-count">29</span>
+            </a>
+        </li>
+        <li>
+        <a href="#notification">
+            <span class="icon-count">59</span>
+        </a>
+        </li>
+        <li>
+			<a href="#sign-out"></a>
+        </li>
+        </ul>
+    </div>
+   
+    <div class="sidenav">
+        <div class="profile">
+            <img src="https://th.bing.com/th/id/R.88f4f67fe36423a9f099e32757f61acc?rik=CLtRO2eGANx4Vw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_329115.png&ehk=mXoK%2be700RIpbejgADkfZYJSnzVqJhHHmQWdguPy40k%3d&risl=&pid=ImgRaw&r=0" alt="" width="100" height="100">
+            <div class="name"> Name_of_User </div>
+            <div class="job"> (position)</div>
+        </div>
+        <div class="sidenav-url">
+            <div class="url">
+                <a href="#profile" class="active">Profile</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="#settings">Post a Event</a>
+                <hr align="center">
+            </div>
+			<div class="url">
+                <a href="#update">Update Event</a>
+                <hr align="center">
+            </div>
+			<div class="url">
+                <a href="#contributed">Contributed</a>
+                <hr align="center">
+            </div>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+	<br>
+	<h2> &nbsp; Details:</h2><br>
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-pen fa-xs edit"></i>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>:</td>
+                            <td>Organizer Name</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td>email@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>:</td>
+                            <td>Amrita Viswa Vidyapeetham</td>
+                        </tr>
+                        <tr>
+                            <td>Hobbies</td>
+                            <td>:</td>
+                            <td>Diving, Reading Book</td>
+                        </tr>
+                        <tr>
+                            <td>Job</td>
+                            <td>:</td>
+                            <td>Web Developer</td>
+                        </tr>
+                        <tr>
+                            <td>Skill</td>
+                            <td>:</td>
+                            <td>PHP, HTML, CSS, Java</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</body>
+
+</html>
